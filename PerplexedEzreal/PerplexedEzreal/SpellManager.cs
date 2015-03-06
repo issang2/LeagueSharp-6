@@ -22,10 +22,10 @@ namespace PerplexedEzreal
 
         public static void Initialize()
         {
-            _Q = new Spell(SpellSlot.Q, 1200);
+            _Q = new Spell(SpellSlot.Q, 1180f);
             _Q.SetSkillshot(0.25f, 60f, 2000f, true, SkillshotType.SkillshotLine);
 
-            _W = new Spell(SpellSlot.W, 1000);
+            _W = new Spell(SpellSlot.W, 850f);
             _W.SetSkillshot(0.25f, 80f, 1600f, false, SkillshotType.SkillshotLine);
 
             _E = new Spell(SpellSlot.E, 475);
